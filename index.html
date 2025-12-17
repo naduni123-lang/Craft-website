@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Craft</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="container nav-inner">
+        <div class="brand">
+            <img src="logo.jpg" class="brand-logo">
+            <span class="brand-name">Creative Craft</span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section id="hero" class="hero">
+
+    <!-- Background Video (your v4.mp4 file) -->
+    <video class="hero-video-bg" autoplay muted loop playsinline>
+        <source src="v4.mp4" type="video/mp4">
+    </video>
+
+    <!-- Dark overlay -->
+    <div class="video-overlay"></div>
+
+    <!-- Content -->
+    <div class="container hero-grid">
+
+        <div class="hero-left">
+            <h1 class="hero-title">Crafting Stories Through Cinematic Visuals.</h1>
+            <p class="hero-subtitle">Where creativity meets professional video production.</p>
+        </div>
+
+        
+
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p class="section-text">
+            Creative Craft is a passionate video production studio focused on turning ideas into powerful visual stories.
+            We handle every part of the filmmaking process — from concept development and scripting to filming, editing, and final delivery. Our team blends creativity, cinematic techniques, and professional equipment to produce high-quality videos for weddings, brands, events, and social media.
+            </p>
+            <br>
+            <p class="section-text">
+            Our goal is to create content that connects, inspires, and leaves a lasting impact.
+            We work closely with clients to understand their vision and bring it to life through emotion-driven storytelling and polished visuals. Whether it's a short promotional video or a full production, we ensure each project is crafted with care, creativity, and attention to detail.
+        </p>
+    </div>
+</section>
+
+<!-- ================= PORTFOLIO ================= -->
+<section id="portfolio" class="section section-alt">
+    <div class="container">
+        <h2 class="section-title">Featured Work</h2>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card">
+                <div class="video-frame">
+                    <video src="v1.mp4" controls></video>
+                </div>
+                <h3 class="portfolio-title">Modern Cinematic Showcase</h3>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="video-frame">
+                    <video src="v2.mp4" controls></video>
+                </div>
+                <h3 class="portfolio-title">Artistic Visual Storytelling</h3>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="video-frame">
+                    <video src="v3.mp4" controls></video>
+                </div>
+                <h3 class="portfolio-title">Creative Craft Motion Reel</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section id="services" class="section">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="services-grid">
+            <div class="service-card"><div class="service-icon">💍</div><h3>Wedding Cinematography</h3><p>Cinematic wedding films.</p></div>
+            <div class="service-card"><div class="service-icon">📺</div><h3>Commercial Production</h3><p>Professional brand ads.</p></div>
+            <div class="service-card"><div class="service-icon">🎥</div><h3>Multi-Camera Production</h3><p>Concerts & events.</p></div>
+            <div class="service-card"><div class="service-icon">📱</div><h3>Social Media Content</h3><p>Engaging digital videos.</p></div>
+            <div class="service-card"><div class="service-icon">⚡</div><h3>Reels Production</h3><p>High-impact short videos.</p></div>
+            <div class="service-card"><div class="service-icon">🎬</div><h3>Documentary Filmmaking</h3><p>Story-driven films.</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- =============== CONTACT =============== -->
+    <section id="contact" class="section section-alt reveal">
+        <div class="container contact-layout">
+            <div class="contact-info">
+                <h2 class="section-title left">Let’s Create Something Amazing</h2>
+
+                <p><strong>Phone:</strong> 0771952145</p>
+                <p><strong>Email:</strong> <a href="mailto:ajanthaacp@gmail.com">ajanthaacp@gmail.com</a></p>
+                <p>
+                    <strong>Location:</strong>
+                    <a href="https://share.google/NJmaWd9P1XTnwARRL" target="_blank">View on Google Maps</a>
+                </p>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                <p id="formStatus" class="form-status"></p>
+            </form>
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- COLUMN 1 — Logo + Brand -->
+        <div class="footer-column footer-brand-section">
+            <img src="logo.jpg" class="footer-logo" alt="Creative Craft Logo">
+            <h3 class="footer-brand">CREATIVE CRAFT</h3>
+        </div>
+
+        <!-- COLUMN 2 — Contact -->
+        <div class="footer-column">
+            <h4>CONTACT</h4>
+            <p>ajanthaacp@gmail.com</p>
+            <hr class="footer-line">
+            <p>Sri Lanka</p>
+            <p>0771952145</p>
+        </div>
+
+        <!-- COLUMN 3 — Social -->
+        <div class="footer-column">
+            <h4>FOLLOW US</h4>
+
+            <div class="social-icons">
+                <a href="https://facebook.com" class="social-btn fb" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://instagram.com" class="social-btn insta" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://tiktok.com" class="social-btn tiktok" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© <span id="year"></span> Creative Craft. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
